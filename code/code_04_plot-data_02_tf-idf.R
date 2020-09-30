@@ -7,7 +7,7 @@ source(here("code", "code_01_setup_02_api.R"))
 
 # Read data ---------------------------------------------------------------
 
-tweets <- read_rds(here("tweets_tidy_tf-idf.rds"))
+tweets <- read_rds(here("data","tweets_tidy_tf-idf.rds"))
 
 # Frequency Analysis --------------------------------------------------
 

@@ -40,4 +40,4 @@ data <- data %>% summarise_if(is.numeric, mean)
 
 # Save data ---------------------------------------------------------------
 
-data %>% write_rds(here("tweets_tidy_tf-idf.rds"))
+data %>% write_rds(here("data","tweets_tidy_tf-idf.rds"))

@@ -1,0 +1,6 @@
+library(tidyverse)
+library(tidytext)
+library(rtweet)
+library(magrittr)
+library(patchwork)
+library(stm)
